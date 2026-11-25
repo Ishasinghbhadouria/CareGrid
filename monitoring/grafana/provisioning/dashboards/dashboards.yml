@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "CareGrid Dashboards"
+    orgId: 1
+    folder: "CareGrid Healthcare Operations"
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
